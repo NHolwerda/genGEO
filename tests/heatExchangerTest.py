@@ -73,3 +73,5 @@ class HeatExchangerTest(unittest.TestCase):
         self.assertTrue(*testAssert(results.mdot_ratio, 1.3737878, 'testHeatExchangerOptMdot_mdot_ratio'))
         self.assertTrue(*testAssert(results.m_dot_1, 1, 'testHeatExchangerOptMdot_m_dot_1'))
         self.assertTrue(*testAssert(results.m_dot_2, 1.3737878, 'testHeatExchangerOptMdot_m_dot_2'))
+
+print('done!')
