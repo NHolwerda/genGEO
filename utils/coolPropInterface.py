@@ -36,3 +36,4 @@ def coolProp(outPropName, prop1Name, prop1Val, prop2Name, prop2Val, fluid):
                 return np.interp(prop1Val, prop1Vals, prop2Vals)
 
     return coolProps(outPropName, prop1Name, prop1Val, prop2Name, prop2Val, fluid)
+
